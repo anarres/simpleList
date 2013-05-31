@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>A simple list | Foofurple</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="description" content="Create simple lists in your 
+        web browser. Possibly the simplest web application imaginable
+        which uses HTML5 localStorage.">
+    <script type="text/javascript" src="simpleList.js"></script>
+</head>
+
+<body onload="init()">
+
+<div id="container">
+
+<h1>A List of things</h1>
+
+<div id="storage">
+</div> <!--#storage-->
+
+<div id="addAThing">
+    <label for="newThingInput">Add a new thing:</label>
+    <input type="text" id="newThingInput">
+    <button onclick="saveAThing()">Save</button>
+</div> <!--#addAThing-->
+
+</div><!--#container-->
+
+</body>
+</html>

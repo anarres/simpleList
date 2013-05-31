@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 16px;
+    color: #222;
+}
+h1 {
+    font-size: 1.8em;
+    font-weight: normal;
+    padding: 0.5em 0em;
+}
+h2,h3,h4,h5,h6 {
+    font-size: 1.4em;
+    font-weight: normal;
+    padding: 0.5em 0em;
+}
+a {
+    color: #666;
+    text-decoration: none;
+    font-weight: regular;
+}
+a:hover {
+    color: #a6372e;
+}
+label {
+    display: block;
+    padding: 0.5em 0em;
+}
+input {
+    padding: 2px 4px;
+}
+button {
+    cursor: pointer;
+}
+div#container {
+    min-width: 200px;
+    max-width: 700px;
+    margin: 10px auto;
+}
+div.divider {
+    height: 2px;
+    width: 100%
+    clear: both;
+    margin: 10px 0px;
+    background-color: #0999a6;
+    border-radius:3px;
+}
+.remove {
+    color: red;
+    padding: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
