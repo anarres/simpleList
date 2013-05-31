@@ -1,1 +1,1 @@
-I think this is the simplest possible example of a 100% client-side app that uses html5 localStorage / web storage to store data. I made this because I was having trouble figuring out how localStorage works, I hope it will be useful to others as well.
+I think this is the simplest possible example of a 100% client-side app that uses html5 localStorage / web storage to store data. I made this because I was having trouble figuring out how localStorage works, I hope it will be useful to others as well. See it in action at http://foofurple.com/simpleList/index.html.
