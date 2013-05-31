@@ -11,7 +11,7 @@ function updateStorageInfo() {
         }
         else {
             html = "<ul>";
-            for (var i=0; i<numThings; i++) {
+            for (var i=0; i<localStorage.length; i++) {
                 var oneUp = i+1;
                 html += "<li>";
                 html += oneUp;
