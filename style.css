@@ -10,10 +10,12 @@ body {
 h1 {
     font-size: 1.8em;
     font-weight: normal;
+    padding: 10px 0px;
 }
 h2,h3,h4,h5,h6 {
     font-size: 1.4em;
     font-weight: normal;
+    padding: 10px 0px;
 }
 a {
     color: #666;
@@ -23,6 +25,10 @@ a {
 a:hover {
     color: #a6372e;
 }
+ul {
+    padding: 10px 30px;
+}
+
 label {
     display: block;
 }
